@@ -1,11 +1,12 @@
 # Rick and Morty API Explorer
 
-A modern Flutter application that fetches and displays character data from the Rick and Morty API, providing a clean and intuitive interface for exploring your favorite characters from the series.
+A modern Flutter application that fetches and displays character data from the Rick and Morty API,
+providing a clean and intuitive interface for exploring your favorite characters from the series.
 
 ## 📱 Screenshots
 
-| Characters List | Character Details |
-|----------------|-------------------|
+| Characters List                     | Character Details                        |
+|-------------------------------------|------------------------------------------|
 | List of all characters with avatars | Detailed view with character information |
 
 ## ✨ Features
@@ -70,6 +71,7 @@ dependencies:
 ## 🔧 Technical Implementation
 
 ### API Integration
+
 - **Endpoint**: `https://rickandmortyapi.com/api/character`
 - **Method**: GET request using `http` package
 - **Data Format**: JSON parsing with custom `fromJson` factory method
@@ -77,15 +79,18 @@ dependencies:
 ### Key Components
 
 #### CharactersPage
+
 - Uses `FutureBuilder` for async data fetching
 - Implements `ListView.builder` for efficient list rendering
 - Displays loading indicator and error states
 
 #### CharacterDetailPage
+
 - Receives character data via constructor parameters
 - Shows detailed information including status, species, and high-res image
 
 #### API Service
+
 - Handles HTTP requests and responses
 - Converts JSON data to `Character` model objects
 - Implements proper error handling
@@ -120,6 +125,7 @@ dependencies:
 ## 🐛 Error Handling
 
 The app handles various error scenarios:
+
 - Network connection issues
 - API response errors (non-200 status codes)
 - Data parsing errors
@@ -154,7 +160,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📞 Contact
 
-Your Name -  - sandroqatamadze79@gmail.com
+Email - - sandroqatamadze79@gmail.com
 
-Project Link: [https://github.com/SANDRICKSON/rick-and-morty-api-flutter.git](https://github.com/SANDRICKSON/rick-and-morty-api-flutter.git)
-
+Project
+Link: [https://github.com/SANDRICKSON/rick-and-morty-api-flutter.git](https://github.com/SANDRICKSON/rick-and-morty-api-flutter.git)
